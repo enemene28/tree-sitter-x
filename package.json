@@ -1,0 +1,25 @@
+{
+  "name": "tree-sitter-x",
+  "version": "0.0.1",
+  "description": "Parser for small programming language created during university course. Work in porgress.",
+  "main": "bindings/node",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/enemene28/tree-sitter-x.git"
+  },
+  "author": "Michael Enzmann",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/enemene28/tree-sitter-x/issues"
+  },
+  "homepage": "https://github.com/enemene28/tree-sitter-x#readme",
+  "dependencies": {
+    "nan": "^2.15.0"
+  },
+  "devDependencies": {
+    "tree-sitter-cli": "^0.20.0"
+  }
+}

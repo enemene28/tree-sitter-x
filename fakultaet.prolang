@@ -1,0 +1,12 @@
+Iam fakultaet.
+read n isa int.
+print res isa int.
+i isa int.
+res is 1.
+for i from 1 to n do
+    res is res * i.
+    res is res * i.
+    res is res * i.
+    res is res * i.
+    res is res * i.
+end

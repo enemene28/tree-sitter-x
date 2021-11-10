@@ -1,0 +1,250 @@
+[
+  {
+    "type": "declaration",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "decop",
+          "named": true
+        },
+        {
+          "type": "endmarker",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "printmod",
+          "named": true
+        },
+        {
+          "type": "readmod",
+          "named": true
+        },
+        {
+          "type": "type",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "definition",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "defop",
+          "named": true
+        },
+        {
+          "type": "endmarker",
+          "named": true
+        },
+        {
+          "type": "float",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "int",
+          "named": true
+        },
+        {
+          "type": "multiply_op",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "forloop",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "declaration",
+          "named": true
+        },
+        {
+          "type": "definition",
+          "named": true
+        },
+        {
+          "type": "endfor",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "int",
+          "named": true
+        },
+        {
+          "type": "key_do",
+          "named": true
+        },
+        {
+          "type": "key_for",
+          "named": true
+        },
+        {
+          "type": "key_from",
+          "named": true
+        },
+        {
+          "type": "key_to",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "pname",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "endmarker",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "pnamedef",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "source_file",
+    "named": true,
+    "fields": {},
+    "children": {
+      "multiple": true,
+      "required": true,
+      "types": [
+        {
+          "type": "declaration",
+          "named": true
+        },
+        {
+          "type": "definition",
+          "named": true
+        },
+        {
+          "type": "endmarker",
+          "named": true
+        },
+        {
+          "type": "forloop",
+          "named": true
+        },
+        {
+          "type": "identifier",
+          "named": true
+        },
+        {
+          "type": "pname",
+          "named": true
+        }
+      ]
+    }
+  },
+  {
+    "type": "type",
+    "named": true,
+    "fields": {}
+  },
+  {
+    "type": "decop",
+    "named": true
+  },
+  {
+    "type": "defop",
+    "named": true
+  },
+  {
+    "type": "endfor",
+    "named": true
+  },
+  {
+    "type": "endmarker",
+    "named": true
+  },
+  {
+    "type": "float",
+    "named": true
+  },
+  {
+    "type": "float",
+    "named": false
+  },
+  {
+    "type": "identifier",
+    "named": true
+  },
+  {
+    "type": "int",
+    "named": true
+  },
+  {
+    "type": "int",
+    "named": false
+  },
+  {
+    "type": "key_do",
+    "named": true
+  },
+  {
+    "type": "key_for",
+    "named": true
+  },
+  {
+    "type": "key_from",
+    "named": true
+  },
+  {
+    "type": "key_to",
+    "named": true
+  },
+  {
+    "type": "multiply_op",
+    "named": true
+  },
+  {
+    "type": "pnamedef",
+    "named": true
+  },
+  {
+    "type": "printmod",
+    "named": true
+  },
+  {
+    "type": "readmod",
+    "named": true
+  }
+]
